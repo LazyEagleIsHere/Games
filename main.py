@@ -193,7 +193,7 @@ myMenu.onButtonPressed(controller.A, function (selection, selectedIndex) {
     if (selectedIndex == 0) {
         game.setDialogFrame()
         game.setDialogCursor()
-        game.showLongText("Keyboard Control:\\n Up button: Go upward\\n Down button: Go downward\\n Left button: Go to left\\n Right button: Go to right\\n Spacebar: Attack\\n Button X: Remote attack", DialogLayout.Full)
+        game.showLongText("Keyboard Control:\\n Up button: Go upward\\n Down button: Go downward\\n Left button: Go to left\\n Right button: Go to right\\n Spacebar: Remote Attack\\n Button X: Attack", DialogLayout.Full)
         game.showLongText("Your mission is to collect all the treasure and leave as fast as you can. ", DialogLayout.Full)
     } else if (selectedIndex == 1) {
         myMenu.close()
